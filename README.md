@@ -33,7 +33,7 @@ Monitors 4,100+ live Polymarket markets, ingesting 120+ news articles per pollin
 Retrieval-augmented chatbot answering questions about my background, running in production on shriramjana.com.  
 `TypeScript`
 
-**[Notebook](https://github.com/UTDNebula/utd-notebook)** — Nebula Labs  
+**[Notebook](https://github.com/UTDNebula/utd-notebook)** — Nebula Labs &nbsp;·&nbsp; [trends.utdnebula.com →](https://dev.notebook.utdnebula.com)   
 Student-facing AI-powered note platform at UT Dallas. Next.js and PostgreSQL backend with multi-tenant auth and role-based access control.  
 `TypeScript`
 
