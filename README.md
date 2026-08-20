@@ -16,12 +16,12 @@ Currently at Nebula Labs. Open to SWE, backend, and AI engineering roles.
 MCP-native security middleware for agent deployments in air-gapped environments. Sits between the model and its tools to enforce policy on what an agent is allowed to call, and writes an audit trail of every invocation.  
 `Python`
 
-**Sentinel** · ⚡ *currently building*
+**Sentinel** · 🔨 *currently building*
 Retrieval triage for telecom incidents. Describe an outage in plain language, get ranked root causes grounded in similar historical alarm clusters and the exact vendor spec page.
 Rerank v4 scores alarm records as structured JSON, not flattened prose. Hand labeled eval set, graded relevance, and every config run 3× with variance reported.
 `Python` `Cohere` `Qdrant` `FastAPI`
 
-**Trajectory Prediction** · ⚡ *currently building*
+**Trajectory Prediction** · 🔨 *currently building*
 Predicts where an agent goes next from a few seconds of observed positions. Trained on Argoverse, scored with minADE/minFDE. Emits K candidate futures rather than one averaged
 path, because an agent at an intersection may turn either way and the mean of those is a curb.
 `Python` `PyTorch`
