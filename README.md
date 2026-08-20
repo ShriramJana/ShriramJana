@@ -2,7 +2,7 @@
 
 **Software Engineer — AI/ML · Agentic Systems · Full Stack**
 
-CS @ UT Dallas ('27, Finance minor). I build autonomous agent systems and the infrastructure that keeps them trustworthy — orchestration, evaluation, and retrieval pipelines that hold up outside a demo.
+CS @ UT Dallas ('27, Finance minor). I build autonomous agent systems and the infrastructure that keeps them trustworthy: orchestration, evaluation, and retrieval pipelines that hold up outside a demo.
 
 Currently at Nebula Labs. Open to SWE, backend, and AI engineering roles.
 
