@@ -16,15 +16,14 @@ Currently at Nebula Labs. Open to SWE, backend, and AI engineering roles.
 MCP-native security middleware for agent deployments in air-gapped environments. Sits between the model and its tools to enforce policy on what an agent is allowed to call, and writes an audit trail of every invocation.  
 `Python`
 
-**Sentinel** · 🔨 *currently building*
-Retrieval triage for telecom incidents. Describe an outage in plain language, get ranked root causes grounded in similar historical alarm clusters and the exact vendor spec page.
-Rerank v4 scores alarm records as structured JSON, not flattened prose. Hand labeled eval set, graded relevance, and every config run 3× with variance reported.
-`Python` `Cohere` `Qdrant` `FastAPI`
-
 **Trajectory Prediction** · 🔨 *currently building*
 Predicts where an agent goes next from a few seconds of observed positions. Trained on Argoverse, scored with minADE/minFDE. Emits K candidate futures rather than one averaged
 path, because an agent at an intersection may turn either way and the mean of those is a curb.
 `Python` `PyTorch`
+
+**[Sentinel](https://github.com/ShriramJana/sentinel)** · *v1 complete*
+AI-assisted retrieval and triage for telecom incidents. Combines BM25 keyword search, 1024-dimensional semantic retrieval, Reciprocal Rank Fusion, and Cohere cross-encoder reranking to find relevant historical incidents from plain-language outage reports. Evaluated eight configurations across 2,730 synthetic alarms and 100 frozen operator-style queries, achieving 0.731 nDCG@10 and demonstrating that incident relevance and causal-alarm identification require separate objectives.
+`Python` `Cohere` `Qdrant` `Information Retrieval`
 
 **[evalgate](https://github.com/ShriramJana/evalgate)**  
 A regression gate for LLM systems. Scores answer quality against a committed baseline and fails CI when a change degrades it — so prompt and model changes get the same scrutiny as code.  
