@@ -21,9 +21,9 @@ Predicts where an agent goes next from a few seconds of observed positions. Trai
 path, because an agent at an intersection may turn either way and the mean of those is a curb.
 `Python` `PyTorch`
 
-**[Sentinel](https://github.com/ShriramJana/sentinel)** · *v1 complete*
-AI-assisted retrieval and triage for telecom incidents. Combines BM25 keyword search, 1024-dimensional semantic retrieval, Reciprocal Rank Fusion, and Cohere cross-encoder reranking to find relevant historical incidents from plain-language outage reports. Evaluated eight configurations across 2,730 synthetic alarms and 100 frozen operator-style queries, achieving 0.731 nDCG@10 and demonstrating that incident relevance and causal-alarm identification require separate objectives.
-`Python` `Cohere` `Qdrant` `Information Retrieval`
+**[Sentinel](https://github.com/ShriramJana/sentinel)** · *v1 complete*<br>
+AI-assisted retrieval and triage for telecom incidents. Combines BM25, dense retrieval, RRF fusion, and cross-encoder reranking to search historical incidents from plain-language outage reports. Evaluated across 2,730 synthetic alarms and 100 frozen operator-style queries, demonstrating that incident relevance and causal-alarm identification require separate objectives.<br>
+`Python` `Cohere` `Qdrant` `Docker`
 
 **[evalgate](https://github.com/ShriramJana/evalgate)**  
 A regression gate for LLM systems. Scores answer quality against a committed baseline and fails CI when a change degrades it — so prompt and model changes get the same scrutiny as code.  
